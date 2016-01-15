@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myapp</string>
+    <string-array name="songs_list">
+        <item>Motorhead - God was Never on Your Side</item>
+        <item>Queen - Killer queen</item>
+        <item>Axel Rudi Pell - Broken Heart</item>
+        <item>ДДТ - Осень</item>
+        <item>Edguy - Forever</item>
+        <item>Avantasia - Farewell</item>
+    </string-array>
+    <string-array name="lyrics_list">
+        <item>
+            If the stars fall down on me,\nAnd the sun refused to shine,\nThen may the shackles be undone,\nMay all the old words cease to rhyme,\nIf the sky turned into stone,\nIt will matter not at all,\nFor there is no heaven in the sky,\nHell does not wait for our downfall!\n\nLet the voice of reason chime,\nLet the friars vanish for all time,\nGod\'s face is hidden, all unseen,\nYou can\'t ask him,\nWhat it all means,\nHe was never on your side,\nGod was never on your side,\nLet right or wrong alone decide,\nGod was never on your side.\n\nSee ten thousand ministries,\nSee the holy, righteous dogs,\nThey claim to heal,\nBut all they do is steal,\nAbuse your faith,\nCheat and rob,\n\nIf god is wise,\nWhy is he still,\nWhen these false prophets,\nCall him friend,\nWhy is he silent,\nIs he blind?!\nAre we abandoned in the end?\n\nLet the sword of reason shine,\nLet us be free of prayer and shrine,\nGod\'s face is hidden, turned way,\nHe never has a word to say,\nHe was never on your side,\nGod was never on your side,\nLet right or wrong alone decide!\nGod was never on your side!\nNo, no, no!\n\n(Guitar solo)\n\nHe was never on your side,\nGod was never on your side,\nNever!\nNever!\nNever!\nNever!\nNever on your side!\nNever on your side!\nGod was never on your side,\nNever on your side...
+        </item>
+        <item>
+            She keeps Moët et Chandon\nIn her pretty cabinet\n\'Let them eat cake,\' she says\nJust like Marie Antoinette\nA built-in remedy\nFor Kruschev and Kennedy\nAt anytime an invitation\nYou can\'t decline\n\nCaviar and cigarettes\nWell versed in etiquette\nExtraordinarily nice\n\nShe\'s a Killer Queen\nGunpowder, gelatine\nDynamite with a laser beam\nGuaranteed to blow your mind\nAnytime\n\nRecommended at the price\nInsatiable an appetite\nWanna try?\n\nTo avoid complications\nShe never kept the same address\nIn conversation\nShe spoke just like a baroness\nMet a man from China\nWent down to Geisha Minah\nThen again incidentally\nIf you\'re that way inclined\n\nPerfume came naturally from Paris\nFor cars she couldn\'t care less\nFastidious and precise\n\nShe\'s a Killer Queen\nGunpowder, gelatine\nDynamite with a laser beam\nGuaranteed to blow your mind\nAnytime\n\nDrop of a hat she\'s as willing as\nPlayful as a pussy cat\nThen momentarily out of action\nTemporarily out of gas\nTo absolutely drive you wild, wild..\nShe\'s all out to get you\n\nShe\'s a Killer Queen\nGunpowder, gelatine\nDynamite with a laser beam\nGuaranteed to blow your mind\nAnytime\n\nRecommended at the price\nInsatiable an appetite\nWanna try?\nYou wanna try...
+        </item>
+        <item>Axel Rudi Pell - Broken Heart</item>
+        <item>ДДТ - Осень</item>
+        <item>Edguy - Forever</item>
+        <item>Avantasia - Farewell</item>
+    </string-array>
+</resources>
