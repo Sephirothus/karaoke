@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MyActivity extends Activity {
 
@@ -27,7 +26,6 @@ public class MyActivity extends Activity {
         v.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Intent intent = new Intent(MyActivity.this, SongActivity.class);
-                //String text = ((TextView) v).getText().toString();
                 intent.putExtra("songId", position);
                 startActivity(intent);
             }

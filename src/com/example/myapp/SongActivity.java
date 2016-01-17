@@ -1,12 +1,12 @@
 package com.example.myapp;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import org.w3c.dom.Text;
 
 /**
  * Created by konst on 15.01.16.
@@ -31,10 +31,9 @@ public class SongActivity extends Activity{
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String path = "R.raw." + songId + ".mp3";
-                //getResources().getIdentifier(path, null, getPackageName());
-                //MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), getResources().getIdentifier(path, null, getPackageName()));
-                //mediaPlayer.start();
+                String songName = "song" + songId;
+                MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), getResources().getIdentifier(songName, "raw", getPackageName()));
+                mediaPlayer.start();
             }
         });
     }

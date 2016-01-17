@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
     <TextView
@@ -9,10 +8,19 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Song name"
             android:id="@+id/songName" android:layout_alignParentTop="true"
+            android:paddingRight="10dp"
             android:layout_alignParentEnd="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/play"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
     <ScrollView android:layout_width="wrap_content"
-                android:layout_height="320dp"
-                android:layout_below="@+id/songName"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/play"
+                android:layout_below="@id/songName"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentStart="true"
                 android:paddingLeft="10dp"
@@ -23,12 +31,4 @@
                 android:text="Lyrics"
                 android:id="@+id/lyrics"/>
     </ScrollView>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Play"
-            android:id="@+id/play"
-            android:layout_gravity="center_horizontal"
-            android:layout_below="@id/lyrics_scroll"
-            android:layout_alignParentStart="true"/>
 </RelativeLayout>

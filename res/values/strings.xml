@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">myapp</string>
+    <string name="app_name">Karaoke</string>
     <string-array name="songs_list">
         <item>Motorhead - God was Never on Your Side</item>
         <item>Queen - Killer queen</item>
